@@ -4,449 +4,509 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalise.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap">
+    <link rel="stylesheet" href="/css/normalise.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap" rel="stylesheet">
     <title>Portfolio_GABRIEL PIRES</title>
 </head>
 <body>
-   <header class="header_container">
-       <section class="header_container_top_section">
-            <div class="header_container_top_section_logo">
-                <img src="img/header/logo-2.png" alt="logo">
-            </div>
-            <div class="header_container_top_section_list hide_on_mobile">
-                <a href="#about"><p class="header_container_top_section_list_element general_text">About</p></a>
-                <a href="#services"><p class="header_container_top_section_list_element general_text">Services</p></a>
-                <p class="header_container_top_section_list_element general_text" id="pricing">Pricing</p>
-                <a href="#our_blog"><p class="header_container_top_section_list_element general_text">Blog</p></a>
-            </div>
-            <a href="#contact"><button class="header_container_top_section_button_contact general_btn hide_on_mobile">CONTACT</button></a>
-            <button class="header_container_top_section_btn_mobile show_on_mobile"><img src="img/mobile_version/menu.png"></button>
-        </section>
-        <section class="header_bottom_section">
-            <div class="header_bottom_section_left">
-                <h4 class="general_title header_bottom_section_left_name"><a name="about"></a>GABRIEL PIRES</h4>
-                <img class="header_bottom_section_left_slogan hide_on_mobile" src="img/header/The Simple, Clean De.png" alt="logo_text">
-                <p class="header_bottom_section_left_slogan_mbl general_slogan show_on_mobile">The Simple, Clean <br>Design</p>
-                <p class="header_bottom_section_left_description general_text">Agency provides a full service range including technical skills, design, business understanding.</p>
-                <button class="header_bottom_btn general_btn general_btn_orange">SEE MY WORK</button>
-            </div>
-            <div class = "header_bottom_section_right_container">
-                <img src="img/header/picture.png" alt="logo_pic" class="header_bottom_section_right_picture">
-            </div>
-        </section>
+   <header class="header">
+    <div class="container header_container">
+            <a href="" class="header_container_logo">
+                <img src="/img/header/logo-2.png" alt="logo">
+            </a>
+            <nav class="header_container_nav hide_on_mobile">
+                <ul class="header_container_nav_list">
+                    <li class="header_container_nav_item general_text">
+                        <a href="#about" class="header_container_nav_link">About</a>
+                    </li>
+                    <li class="header_container_nav_item  general_text">
+                        <a href="#services" class="header_container_nav_link">Services</a>
+                    </li>
+                    <li class="header_container_nav_item general_text" id="pricing">
+                        <a href="" class="header_container_nav_link">Pricing</a>
+                    </li>
+                    <li class="header_container_nav_item general_text">
+                        <a href="#our_blog" class="header_container_nav_link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#contact" class="header_btn general_btn hide_on_mobile">CONTACT</a>
+            <a class="header_btn_mobile show_on_mobile"><img src="/img/mobile_version/menu.png"></a>
+        </div>
    </header>
-   <section class="services">
-       <div class="services_top">
-        <p class="services_top_title general_title"><a name="services"></a>SERVICE</p>
-        <h2 class="services_top_slogan general_slogan">How I Can Help <br>You With</h2>
+<main>
+    <section class="hero_section">
+        <div class="container hero_container">
+            <div class="hero_section_left">
+                <div class="hero_section_left_content">
+                    <h4 class="general_title hero_section_left_name"><a name="about"></a>GABRIEL PIRES</h4>
+                    <img class="hero_section_left_slogan hide_on_mobile" src="/img/header/The Simple, Clean De.png" alt="logo_text">
+                    <p class="hero_section_left_slogan_mbl general_slogan show_on_mobile">The Simple, Clean <br>Design</p>
+                    <p class="hero_section_left_description general_text">Agency provides a full service range including technical skills, design, business understanding.</p>
+                    <a class="hero_section_btn general_btn general_btn_orange">SEE MY WORK</a>
+                </div>
+             </div>
+            <div class = "hero_section_right">
+                <img src="/img/header/picture.png" alt="logo_pic" class="hero_section_right_picture">
+             </div>
+         </div>
+    </section>
+    <section class="section_services">
+    <div class="container section_services_container">
+        <div class="services_top">
+            <p class="services_top_title general_title"><a name="services" class="section_services_title">SERVICE</a></p>
+            <h2 class="services_top_slogan general_slogan">How I Can Help <br>You With</h2>
        </div>
        <div class="services_cards">
            <div class="services_card_left services_card_mobile">
-               <div class="services_card_left_top">
-                <img class="services_card_left_top_oval" src="img/Oval_small.svg" alt="small_oval">
-                <img class="services_card_left_top_img" src="img/Combined Shape_oval.svg" alt="shape_oval">
-                <h4 class="services_card_left_title general_title_medium">Design</h4>
-               </div>
-            <p class="services_card_left_text">Agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
-            <div class="services_card_left_bottom">
-                <button class="services_card_left_bottom_btn general_btn">+</button>
-                <span class="services_card_left_bottom_span general_text">Learn more</span>  
-            </div> 
+            <div class="services_section_cards_container">
+                <div class="services_card_left_top">
+                    <img class="services_card_left_top_oval" src="/img/Oval_small.svg" alt="small_oval">
+                    <img class="services_card_left_top_img" src="/img/Combined Shape_oval.svg" alt="shape_oval">
+                    <h4 class="services_card_left_title general_title_medium"><a name="design"></a>Design</h4>
+                </div>
+                <p class="services_card_left_text">Agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+                <div class="services_card_left_bottom">
+                    <button class="services_card_left_bottom_btn general_btn">+</button>
+                    <span class="services_card_left_bottom_span general_text">Learn more</span>  
+                </div>
+            </div>
         </div>
            <div class="services_card_right services_card_mobile">
-            <div class="services_card_right_top">
-                <img class="services_card_right_top_oval" src="img/Oval_small.svg" alt="small_oval">
-                <img class="services_card_right_top_img" src="img/Shape_right.svg" alt="shape_right">
-                <h4 class="general_title_medium">Development</h4>
-               </div>
-            <p class="services_card_left_text">Hire to outsource your digital marketing efforts, instead of handling in-house can provide your business.</p>
-            <div class="services_card_right_bottom">
-                <button class="services_card_right_bottom_btn general_btn">+</button>
-                <span class="services_card_right_bottom_span general_text">Learn More</span>  
-            </div> 
-           </div>
+            <div class="services_section_cards_container">
+                <div class="services_card_right_top">
+                    <img class="services_card_right_top_oval" src="/img/Oval_small.svg" alt="small_oval">
+                    <img class="services_card_right_top_img" src="/img/Shape_right.svg" alt="shape_right">
+                    <h4 class="general_title_medium"><a name="development"></a>Development</h4>
+                </div>
+                <p class="services_card_left_text">Hire to outsource your digital marketing efforts, instead of handling in-house can provide your business.</p>
+                <div class="services_card_right_bottom">
+                    <button class="services_card_right_bottom_btn general_btn">+</button>
+                    <span class="services_card_right_bottom_span general_text">Learn More</span>  
+                </div> 
+            </div>
        </div>
-       <div class="services_bottom">
-         <p class="services_bottom_left general_text">Want more service?</p>
-         <p class="services_bottom_right general_text"> Explore Now</p>
-       </div>
-   </section>
-<section class="latest_work">
-    <div class="latest_work_header">
-        <div class="latest_work_header_right">
-            <p class="latest_work_header_right_title general_title">PORTFOLIO</p>
-            <p class="latest_work_header_right_slogan general_slogan">Latest Work</p>
-        </div>
-        <button class="latest_work_header_btn general_btn">EXPLORE MORE</button>
     </div>
-    <div class="latest_work_cards">
-        <div class="latest_work_cards_sofa">
-            <img class="latest_work_cards_sofa_img_main" src="img/Latest_works/SOFA.png" alt="logo_sofa">
-            <img class="latest_work_cards_sofa_img_tag"src="img/Latest_works/tag_design.png" alt="logo_design">
-            <p class="latest_work_cards_text latest_work_cards_sofa_text">SOFA</p>
-        </div>
-        <div class="latest_work_cards_keyBoard">
-            <img class="latest_work_cards_keyBoard_img_main" src="img/Latest_works/KeyBoard.png" alt="logo_keyBoard">
-            <img class="latest_work_cards_keyBoard_img_tag" src="img/Latest_works/tag_branding.png" alt="logo_branding">
-            <p class="latest_work_cards_text latest_work_cards_keyBoard_text">KeyBoard</p>
-        </div>
-        <div class="latest_work_cards_wm">
-            <img class="latest_work_cards_wm_img_main" src="img/Latest_works/Media.png" alt="logo_wm">
-            <img class="latest_work_cards_wm_img_tag" src="img/Latest_works/tag_illustration.png" alt="logo_illustration">
-            <p class="latest_work_cards_text latest_work_cards_wm_text">Work Media</p>
-        </div>
-    </div>
-</section>
-<section class="professional_wd">
-    <div class="professional_wd_top">
-        <div class="professional_wd_top_left">
-            <img class="professional_wd_top_left_mobile_pic show_on_mobile" src="img/mobile_version/Bitmap.png" alt="logo_photo">
-            <img class="professional_wd_top_left_photo hide_on_mobile" src="img/professional_designer/Bitmap-2.png" alt="logo_photo">
-            <img class="professional_wd_top_left_pic hide_on_mobile" src="img/professional_designer/Bitmap.png" alt="logo_picture">
-            <img class="professional_wd_top_left_arrow hide_on_mobile" src="img/professional_designer/Combined_arrow.png" alt="logo_arrow">
-            <img class="professional_wd_top_left_cloud hide_on_mobile" src="img/professional_designer/Path_cloud.png" alt="logo_cloud">
-            <img class="professional_wd_top_left_beige hide_on_mobile" src="img/professional_designer/Rectangle-2.png" alt="logo_beige">
-            <img class="professional_wd_top_left_yellow hide_on_mobile" src="img/professional_designer/Rectangle.png" alt="logo_yellow">
-        </div>
-        <div class="professional_wd_top_right">
-            <span class="professional_wd_top_right_name general_title">GABRIEL PIRES</span>
-            <h2 class="professional_wd_top_right_title general_slogan">Professional <br>Web Designer</h2>
-            <p class="professional_wd_top_right_slogan">Provides a full service range</p>
-            <p class="professional_wd_top_right_description general_text hide_on_mobile">Ability to put themselves in the merchant's shoes. It is <br>meant to partner on the long run, and work as an extension <br>of the merchant's team.</p>
-            <p class="professional_wd_top_right_description_mbl general_text show_on_mobile">Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p>
-            <button  class="professional_wd_top_right_btn general_btn">ABOUT ME</button>
-        </div>
-    </div>
-    <div class="professional_wd_bottom">
-        <div class="professional_wd_bottom_left">
-            <div class="professional_wd_bottom_left_pic">
-                <img class="professional_wd_bottom_left_oval" src="img/Oval_small.svg" alt="logo_oval_small">
-                <img class="professional_wd_bottom_left_sch" src="img/professional_designer/schedule.png" alt="logo_schedule">
+    <div class="section_services_bottom">
+        <p class="services_bottom_left general_text">Want more service?</p>
+        <p class="services_bottom_right general_text"> Explore Now</p>
+      </div>
+    </section>
+    <section class="section_latest_work">
+            <div class="container latest_work_header">
+                <p class="latest_work_header_title general_title">PORTFOLIO</p>
+                <div class="latest_work_header_other">
+                    <p class="latest_work_header_other_slogan general_slogan">Latest Work</p>
+                    <a href="" class="latest_work_header_btn general_btn">EXPLORE MORE</a>
+                </div>
             </div>
-            <div class="professional_wd_bottom_left_text">
-                <span class="professional_wd_bottom_left_sp">42%</span>
-                <p class="professional_wd_bottom_left_p">Years of experience</p>
-            </div>
-        </div>
-        <div class="professional_wd_bottom_right">
-            <div class="professional_wd_bottom_right_pic">
-                <img class="professional_wd_bottom_right_oval" src="img/Oval_small.svg" alt="logo_oval_small">
-                <img class="professional_wd_bottom_right_case" src="img/professional_designer/case.png" alt="logo_case">
-            </div>
-            <div class="professional_wd_bottom_right_text">
-                <span class="professional_wd_bottom_right_sp">73+</span>
-                <p class="professional_wd_bottom_right_p">Projects Done</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="features">
-    <div class="features_top_container">
-        <div class="features_top_container_left">
-            <span class='features_top_container_left_title general_title'>FEATURES</span>
-            <h2 class='features_top_container_left_slogan general_slogan'>Give Your Site A New Look</h2>
-            <p class='features_top_container_left_description'>Service range including technical skills, design, business understanding.</p>
-            <p class='features_top_container_left_li general_text'>Range including technical skills</p>
-            <p class='features_top_container_left_li general_text'>Business understanding</p>
-            <p class='features_top_container_left_li general_text'>Partner on the long run</p>
-        </div>
-        <div class="features_top_container_right">
-            <img src="img/features/pic.png" alt="logo_picture">
-        </div>
-    </div>
-    <div class="features_bottom_container">
-        <div class="features_bottom_container_left_general">
-            <div class="features_bottom_container_surprise">
-                <img class="features_bottom_container_surprise_star" src="img/features/Star.png" alt="logo_star">
-                <img class="features_bottom_container_surprise_gift" src="img/features/gift.png" alt="logo_gift">
-            </div>
-            <div class="features_bottom_container_left">
-                    <span class="features_bottom_container_left_title general_title">GET STARTED</span>
-                    <h3 class="features_bottom_container_left_slogan general_title_medium">I Help Companies <br>Move Faster</h3>
-                    <button class="features_bottom_container_left_btn general_btn general_btn_orange">CONTACT ME</button>
-            </div>
-        </div>
-            <div class="features_bottom_container_other"> 
-                <div class="features_bottom_container_right">
-                    <div class="features_bottom_container_right_text">
-                        <p class="general_text">Put themselves in the merchant's shoes. It is meant to partner on the long run.</p>
+                <ul class="latest_work_cards">
+                    <li class="latest_work_cards_item">
+                        <img class="latest_work_cards_img_main latest_work_cards_img_main_sofa" src="/img/Latest_works/SOFA.png" alt="logo_sofa">
+                        <div class="latest_work_cards_img_text">
+                            <img class="latest_work_cards_img_main_tag"src="/img/Latest_works/tag_design.png" alt="logo_design">
+                            <p class="latest_work_cards_text">SOFA</p>
+                        </div>
+                    </li>
+                    <li class="latest_work_cards_item">
+                        <img class="latest_work_cards_img_main latest_work_cards_img_main_keyBoard" src="/img/Latest_works/KeyBoard.png" alt="logo_keyBoard">
+                        <div class="latest_work_cards_img_text">   
+                            <img class="latest_work_cards_img_main_tag" src="/img/Latest_works/tag_branding.png" alt="logo_branding">
+                            <p class="latest_work_cards_text">KeyBoard</p>
+                        </div>
+                    </li>
+                    <li class="latest_work_cards_item latest_work_cards_item_wm">
+                        <img class="latest_work_cards_img_main latest_work_cards_img_main_wm" src="/img/Latest_works/Media.png" alt="logo_wm">
+                        <div class="latest_work_cards_img_text">   
+                            <img class="latest_work_cards_img_main_tag" src="/img/Latest_works/tag_illustration.png" alt="logo_illustration">
+                            <p class="latest_work_cards_text">Work Media</p>
+                        </div> 
+                    </li>
+                </ul>
+    </section>
+    <section class="section_professional_wd">
+        <div class="container">
+            <div class="professional_wd_top">
+                <div class="professional_wd_top_left">
+                    <img class="professional_wd_top_left_pic hide_on_mobile"src="/img/professional_designer/pic.png" alt="logo_pic">
+                    <img class="professional_wd_top_left_pic_mbl show_on_mobile" src="/img/mobile_version/Bitmap.png" alt="logo_photo">
                     </div>
-                    <div class="features_bottom_container_right_picture">
-                        <img class="features_bottom_container_right_picture_mbl show_on_mobile" src="img/mobile_version/picture_features.png" alt="pic_mbl">
-                        <img class="features_bottom_container_right_picture_block hide_on_mobile" src="img/features/block.png" alt="logo_block">
-                        <img class="features_bottom_container_right_picture_cloud hide_on_mobile" src="img/features/cloud.png" alt="logo_cloud">
+                <div class="professional_wd_top_right">
+                    <span class="professional_wd_top_right_name general_title">GABRIEL PIRES</span>
+                    <h2 class="professional_wd_top_right_title general_slogan">Professional <br>Web Designer</h2>
+                    <p class="professional_wd_top_right_slogan">Provides a full service range</p>
+                    <p class="professional_wd_top_right_description general_text hide_on_mobile">Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p>
+                    <p class="professional_wd_top_right_description_mbl general_text show_on_mobile">Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p>
+                    <a class="professional_wd_top_right_btn general_btn">ABOUT ME</a>
+                </div>
+            </div>
+            <ul class="professional_wd_bottom">
+                    <li class="professional_wd_bottom_item professional_wd_bottom_left">
+                        <div class="professional_wd_bottom_left_pic">
+                            <img class="professional_wd_bottom_oval professional_wd_bottom_left_oval" src="/img/Oval_small.svg" alt="logo_oval_small">
+                            <img class="professional_wd_bottom_pic_in_oval professional_wd_bottom_left_sch" src="/img/professional_designer/schedule.png" alt="logo_schedule">
+                        </div>
+                        <div class="professional_wd_bottom_text professional_wd_bottom_left_text">
+                            <span class="professional_wd_bottom_text_sum professional_wd_bottom_left_sp">42%</span>
+                            <p class="professional_wd_bottom_description professional_wd_bottom_left_p">Years of experience</p>
+                        </div>
+                    </li>
+                    <li class="professional_wd_bottom_item professional_wd_bottom_right">
+                        <div class="professional_wd_bottom_right_pic">
+                            <img class="professional_wd_bottom_oval professional_wd_bottom_right_oval" src="/img/Oval_small.svg" alt="logo_oval_small">
+                            <img class="professional_wd_bottom_pic_in_oval professional_wd_bottom_right_case" src="/img/professional_designer/case.png" alt="logo_case">
+                        </div>
+                        <div class="professional_wd_bottom_text professional_wd_bottom_right_text">
+                            <span class="professional_wd_bottom_text_sum professional_wd_bottom_right_sp">73+</span>
+                            <p class="professional_wd_bottom_description professional_wd_bottom_right_p">Projects Done</p>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+    </section>
+    <section class="features_section">
+            <div class="features_top_container">
+                <div class="container container_features">
+                        <div class="features_top_container_left">
+                            <span class='features_top_container_left_title general_title'>FEATURES</span>
+                            <h2 class='features_top_container_left_slogan general_slogan'>Give Your Site A New Look</h2>
+                            <p class='features_top_container_left_description'>Service range including technical skills, design, business understanding.</p>
+                            <ul class="features_top_container_left_list">
+                                <li class='features_top_container_left_list_item general_text'>Range including technical skills</li>
+                                <li class='features_top_container_left_list_item general_text'>Business understanding</li>
+                                <li class='features_top_container_left_list_item general_text'>Partner on the long run</li>
+                            </ul>
+                        </div>
+                        <div class="features_top_container_right">
+                            <img src="/img/features/pic.png" alt="logo_picture">
+                        </div>
+                </div>
+            </div>
+            <div class="features_bottom_container">
+                <div class="container container_features features_bottom_container">
+                        <div class="features_bottom_container_left_general">
+                            <div class="features_bottom_container_surprise">
+                                <img class="features_bottom_container_surprise_star" src="/img/features/Star.png" alt="logo_star">
+                                <img class="features_bottom_container_surprise_gift" src="/img/features/gift.png" alt="logo_gift">
+                            </div>
+                            <div class="features_bottom_container_left">
+                                    <span class="features_bottom_container_left_title general_title">GET STARTED</span>
+                                    <h3 class="features_bottom_container_left_slogan general_title_medium">I Help Companies <br>Move Faster</h3>
+                                    <a class="features_bottom_container_left_btn general_btn general_btn_orange">CONTACT ME</a>
+                            </div>
+                        </div>
+                        <div class="features_bottom_container_other"> 
+                            <div class="features_bottom_container_right">
+                                <div class="features_bottom_container_right_text">
+                                    <p class="general_text">Put themselves in the merchant's shoes. It is meant to partner on the long run.</p>
+                                </div>
+                                <div class="features_bottom_container_right_picture">
+                                    <img class="features_bottom_container_right_picture hide_on_mobile" src="/img/mobile_version/picture_features.png" alt="pic_mbl">
+                                    <img class="features_bottom_container_right_picture_mbl show_on_mobile" src="/img/mobile_version/picture_features.png" alt="pic_mbl">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                
+        </div>
+        </div>
+    </section>
+    <section class="testimonials_section">
+        <div class="container testimonials_container">
+            <h4 class="testimonials_section_title general_title">TESTIMONIAL</h4>
+            <h2 class="testimonials_container_slogan general_slogan">What My <br>Clients Saying</h2>
+            <ul class="testimonials_container_cards">
+                <li class="testimonials_container_cards_item testimonials_container_cards_reply_first testimonials_container_cards_reply_mbl">
+                    <div class="testimonials_container_cards_item_small_container testimonials_container_cards_item_small_container_first">
+                        <img class="testimonials_container_cards_reply_stars" src="/img/testimonials/star.png" alt="pic_stars">
+                            <p class="testimonials_container_cards_reply_text general_text">Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety.</p>
+                            <div class="testimonials_container_cards_reply_author">
+                                <img class="testimonials_container_cards_reply_author_photo" src="/img/testimonials/Client1.png" alt="pic_client1">
+                                <div class="testimonials_container_cards_reply_author_text">
+                                    <h4 class="testimonials_container_cards_reply_author_text_name general_title_medium">Graham Griffiths</h4>
+                                    <p class="testimonials_container_cards_reply_author_text_media general_text">Twitor</p>
+                                </div>
+                            </div>
                     </div>
-                </div>
-           </div>
-    </div>
-</section>
-<section class="testimonials_container">
-    <div class="testimonials_container_hat">
-        <span class="testimonials_container_hat_title general_title">TESTIMONIAL</span>
-        <h2 class="testimonials_container_hat_slogan general_slogan">What My <br>Clients Saying</h2>
-    </div>
-    <div class="testimonials_container_cards">
-        <div class="testimonials_container_cards_reply_first testimonials_container_cards_reply_mbl">
-            <img class="testimonials_container_cards_reply_stars" src="img/testimonials/star.png" alt="pic_stars">
-            <p class="testimonials_container_cards_reply_text general_text">Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety.</p>
-            <div class="testimonials_container_cards_reply_author">
-                <img class="testimonials_container_cards_reply_author_photo" src="img/testimonials/Client1.png" alt="pic_client1">
-                <div class="testimonials_container_cards_reply_author_text">
-                    <h4 class="testimonials_container_cards_reply_author_text_name general_title_medium">Graham Griffiths</h4>
-                    <p class="testimonials_container_cards_reply_author_text_media general_text">Twitor</p>
-                </div>
-            </div>
-        </div>
-        <div class="testimonials_container_cards_reply_second testimonials_container_cards_reply_mbl">
-            <img class="testimonials_container_cards_reply_stars" src="img/testimonials/star.png" alt="pic_stars">
-            <p class="testimonials_container_cards_reply_text general_text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions.</p>
-            <div class="testimonials_container_cards_reply_author">
-                <img class="testimonials_container_cards_reply_author_photo" src="img/testimonials/Client2.png" alt="pic_client2">
-                <div class="testimonials_container_cards_reply_author_text">
-                    <h4 class="testimonials_container_cards_reply_author_text_name general_title_medium">Alan Martí</h4>
-                    <p class="testimonials_container_cards_reply_author_text_media">Meta Inc.</p>
-                </div>
-            </div>
-        </div>
-        <div class="testimonials_container_cards_reply_third testimonials_container_cards_reply_mbl">
-            <img class="testimonials_container_cards_reply_stars" src="img/testimonials/star.png" alt="pic_stars">
-            <p class="testimonials_container_cards_reply_text general_text">Provide your business with a variety of digital solutions to promote your product or service online.</p>
-            <div class="testimonials_container_cards_reply_author">
-                <img class="testimonials_container_cards_reply_author_photo" src="img/testimonials/Client3.png" alt="pic_client3">
-                <div class="testimonials_container_cards_reply_author_text">
-                    <h4 class="testimonials_container_cards_reply_author_text_name general_title_medium">Richardo Kann</h4>
-                    <p class="testimonials_container_cards_reply_author_text_media">Photogram</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="testimonials_container_bottom">
-        <button class="testimonials_container_btn general_btn">SEE ALL</button>
-    </div>
-</section>
-<section class="faq">
-    <div class="faq_main">
-        <div class="faq_main_left">
-            <span class="faq_main_left_title general_title">FAQ</span>
-            <h2 class="faq_main_left_slogan">Frequently Asked Questions</h2>
-            <p class="faq_main_left_description general_text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
-            <p class="faq_main_left_doing general_text">Contact Me</p>
-        </div>
-        <div class="faq_main_right_container">
-            <div class="faq_main_right_container_element1">
-                <div class="faq_main_right_container_element1_general">
-                    <div class="faq_main_right_container_element1_top">
-                        <h4 class="faq_main_right_container_element1_top_name">A digital agency is a business</h4>
-                        <div class="faq_main_right_container_element1_top_image">
-                            <img class="faq_main_right_container_element1_top_name_oval" src="img/FAQ/Oval.png" alt="logo_oval_small">
-                            <img class="faq_main_right_container_element1_top_name_triangle" src="img/FAQ/triangle_up.png" alt="logo_oval_triangle">
+                </li>
+                <li class="testimonials_container_cards_item testimonials_container_cards_reply_second testimonials_container_cards_reply_mbl">
+                    <div class="testimonials_container_cards_item_small_container">
+                        <img class="testimonials_container_cards_reply_stars" src="/img/testimonials/star.png" alt="pic_stars">
+                        <p class="testimonials_container_cards_reply_text general_text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions.</p>
+                        <div class="testimonials_container_cards_reply_author testimonials_container_cards_reply_author_second">
+                            <img class="testimonials_container_cards_reply_author_photo" src="/img/testimonials/Client2.png" alt="pic_client2">
+                            <div class="testimonials_container_cards_reply_author_text">
+                                <h4 class="testimonials_container_cards_reply_author_text_name general_title_medium">Alan Martí</h4>
+                                <p class="testimonials_container_cards_reply_author_text_media">Meta Inc.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </li>
+                <li class="testimonials_container_cards_item testimonials_container_cards_reply_third testimonials_container_cards_reply_mbl">
+                    <div class="testimonials_container_cards_item_small_container">  
+                        <img class="testimonials_container_cards_reply_stars" src="/img/testimonials/star.png" alt="pic_stars">
+                        <p class="testimonials_container_cards_reply_text general_text">Provide your business with a variety of digital solutions to promote your product or service online.</p>
+                        <div class="testimonials_container_cards_reply_author">
+                            <img class="testimonials_container_cards_reply_author_photo" src="/img/testimonials/Client3.png" alt="pic_client3">
+                            <div class="testimonials_container_cards_reply_author_text">
+                                <h4 class="testimonials_container_cards_reply_author_text_name general_title_medium">Richardo Kann</h4>
+                                <p class="testimonials_container_cards_reply_author_text_media">Photogram</p>
+                            </div>
                         </div>
                     </div>
-                    <p class="faq_main_right_container_element1_text general_text">Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.</p>
+                </li>
+                </ul>
+                <div class="testimonials_container_bottom">
+                    <a class="testimonials_container_btn general_btn">SEE ALL</a>
                 </div>
             </div>
-            <div class="faq_main_right_container_elements2 faq_main_right_container_elements_second">
-                <p class="faq_main_right_container_elements2_title general_title_medium">Hire to outsource your digital</p>
-                <div class="faq_main_right_container_element1_top_image faq_main_right_container_elements_top_image_second">
-                    <img class="faq_main_right_container_element1_top_name_oval" src="img/FAQ/Oval.png" alt="logo_oval_small">
-                    <img class="faq_main_right_container_element1_top_name_triangle2" src="img/FAQ/triangle_down.png" alt="logo_oval_triangle">
+    </section>
+    <section class="faq_section">
+        <div class="container">
+            <div class="faq_section_main">
+                <div class="faq_section_main_left">
+                    <span class="faq_section_main_left_title general_title">FAQ</span>
+                    <h2 class="faq_section_main_left_slogan">Frequently Asked Questions</h2>
+                    <p class="faq_section_main_left_description general_text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+                    <p class="faq_section_main_left_doing general_text">Contact Me</p>
+                </div>
+                <div class="faq_section_main_right">
+                     <ul class="faq_section_main_right_list">
+                                <li class="faq_section_main_right_list_item1">
+                                    <div class="faq_section_main_right_container faq_section_main_right_list_item1_general">
+                                        <div class="faq_section_main_right_list_item1_top">
+                                            <h4 class="faq_section_main_right_list_item_top_title faq_section_main_right_list_item1_top_title">A digital agency is a business</h4>
+                                            <div class="faq_section_main_right_list_item_top_img">
+                                                <img class="faq_section_main_right_list_item_top_img_oval" src="/img/FAQ/Oval.png" alt="logo_oval_small">
+                                                <img class="faq_section_main_right_list_item_top_img_triangle" src="/img/FAQ/triangle_up.png" alt="logo_oval_triangle">
+                                            </div>
+                                        </div>
+                                        <p class="faq_section_main_right_list_item1_text general_text">Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.</p>
+                                    </div>
+                                </li>
+                                <li class="faq_section_main_right_list_item">
+                                    <div class="faq_section_main_right_container faq_section_main_right_container_general">
+                                        <h4 class="faq_section_main_right_list_item_top_title faq_section_main_right_list_item_top_title_white faq_section_main_right_elements2_title general_title_medium">Hire to outsource your digital</h4>
+                                        <div class="faq_section_main_right_list_item_top_img">
+                                            <img class="faq_section_main_right_list_item_top_img_oval" src="/img/FAQ/Oval.png" alt="logo_oval_small">
+                                            <img class="faq_section_main_right_list_item_top_img_triangle" src="/img/FAQ/triangle_down.png" alt="logo_oval_triangle">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="faq_section_main_right_list_item faq_section_main_right_list_item_small">
+                                    <div class="faq_section_main_right_container faq_section_main_right_container_general faq_section_main_right_container_general_small">
+                                        <h4 class="faq_section_main_right_list_item_top_title faq_section_main_right_list_item_top_title_white general_title_medium faq_section_main_right_list_item_top_title_small">Marketing efforts</h4>
+                                        <div class="faq_section_main_right_list_item_top_img faq_section_main_right_list_item_top_img_small">
+                                            <img class="faq_section_main_right_list_item_top_img_oval" src="/img/FAQ/Oval.png" alt="logo_oval_small">
+                                            <img class="faq_section_main_right_list_item_top_img_triangle mbl_triangle" src="/img/FAQ/triangle_down.png" alt="logo_oval_triangle">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="faq_section_main_right_list_item">
+                                    <div class="faq_section_main_right_container faq_section_main_right_container_general">
+                                        <h4 class="faq_section_main_right_list_item_top_title faq_section_main_right_list_item_top_title_white general_title_medium">Can provide your business</h4>
+                                        <div class="faq_section_main_right_list_item_top_img">
+                                            <img class="faq_section_main_right_list_item_top_img_oval" src="/img/FAQ/Oval.png" alt="logo_oval_small">
+                                            <img class="faq_section_main_right_list_item_top_img_triangle" src="/img/FAQ/triangle_down.png" alt="logo_oval_triangle">
+                                        </div>
+                                    </div>
+                                </li>
+                        </ul>
+                    </div>
+        </div>
+            <div class="faq_section_footer hide_on_mobile">
+                    <img class="faq_section_footer_img hide_on_mobile" src="/img/FAQ/DigitalSide.png" alt="logo_digitalSide">
+                    <img class="faq_section_footer_img hide_on_mobile" src="/img/FAQ/Vortex.png" alt="logo_vortex">
+                    <img class="faq_section_footer_img hide_on_mobile" src="/img/FAQ/Travel_ex.png" alt="logo_travel_explorer">
+                    <img class="faq_section_footer_img hide_on_mobile" src="/img/FAQ/FUZION.png" alt="logo_fuzion">
+                    <img class="faq_section_footer_imghide_on_mobile element5" src="/img/FAQ/MediaFury.png" alt="logo_mediaFury">
+            </div>
+            <div class="faq_section_footer_mbl show_on_mobile">
+                    <div class="faq_section_footer_row faq_section_footer_first_row show_on_mobile">
+                        <img class="faq_footer_section_first_row_img1" src="/img/FAQ/DigitalSide.png" alt="logo_digitalSide">
+                        <img class="faq_footer_section_first_row_img2" src="/img/FAQ/Vortex.png" alt="logo_vortex">
+                    </div>
+                    <div class="faq_section_footer_row faq_section_footer_second_row show_on_mobile">
+                        <img class="faq_footer_section_second_row_img1" src="/img/FAQ/Travel_ex.png" alt="logo_travel_explorer">
+                        <img class="faq_footer_section_second_row_img2" src="/img/FAQ/FUZION.png" alt="logo_fuzion">
+                    </div>
+                    <div class="faq_section_footer_row faq_section_footer_third_row show_on_mobile">
+                        <img class="faq_footer_section_fourth_row_img element5" src="/img/FAQ/MediaFury.png" alt="logo_mediaFury">
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="our_blog_section">
+        <div class="container our_blog_section_container">
+            <div class="our_blog_section_top">
+                <div class="our_blog_section_top_right">
+                    <p class="our_blog_section_top_right_title general_title"><a name="our_blog"></a>OUR BLOG</p>
+                    <h2 class="our_blog_section_top_right_slogan general_slogan">Latest Blog Articles</h2>
+                </div>
+                <div class="our_blog_section_top_div_btn">
+                    <a class="our_blog_section_top_right_btn general_btn">DISCOVER ALL</a>
                 </div>
             </div>
-            <div class="faq_main_right_container_elements">
-                <p class="faq_main_right_container_elements_title general_title_medium faq_main_right_container_elements_third">Marketing efforts</p>
-                <div class="faq_main_right_container_element1_top_image faq_main_right_container_elements_top_image_third">
-                    <img class="faq_main_right_container_element1_top_name_oval" src="img/FAQ/Oval.png" alt="logo_oval_small">
-                    <img class="faq_main_right_container_element1_top_name_triangle mbl_triangle" src="img/FAQ/triangle_down.png" alt="logo_oval_triangle">
-                </div>
+            <div class="our_blog_section_main">
+                    <div class="our_blog_section_main_left">
+                            <div class="our_blog_section_main_left_img">
+                                <img class="our_blog_section_main_left_img_pumpkins" src="/img/Our_blog/pumpkins.png" alt="pic_pumpkins">
+                                <img class="our_blog_section_main_left_img_overlay" src="/img/Our_blog/overlay_for_pumpkins.png" alt="pic_overlay">
+                            </div>
+                            <p class="our_blog_section_main_left_stories general_text">Stories</p>
+                            <h4 class="our_blog_section_main_left_stories_slogan general_slogan">Agency is a business you hire to outsource</h4>
+                            <p class="our_blog_section_main_left_stories_date general_text">5 Nov, 2021</p>
+                        </div>
+                    <div class="our_blog_section_main_right">
+                        <div class="our_blog_section_main_container_small">
+                            <div class="our_blog_section_main_right_top">
+                                <div class="our_blog_section_main_right_img"> 
+                                    <img class="our_blog_section_main_right_main_img" src="/img/Our_blog/coworkers.png" alt="pic_coworkers">
+                                    <img class="our_blog_section_main_right_img_overlay" src="/img/Our_blog/overlay_for_coworkers.png" alt="pic_overlay">
+                                </div>
+                                <p class="our_blog_section_main_right_title">Design</p>
+                                <p class="our_blog_section_main_right_description our_blog_section_main_right_description_top general_title_medium">Outsource your digital marketing efforts</p>
+                                <p class="our_blog_section_main_right_date general_text">29 Oct, 2021</p>
+                            </div>
+                            <div class="our_blog_section_main_right_bottom">
+                                <div class="our_blog_section_main_right_img"> 
+                                    <img class="our_blog_section_main_right_main_img" src="/img/Our_blog/two_coworkers.png" alt="pic_2coworkers">
+                                    <img class="our_blog_section_main_right_img_overlay" src="/img/Our_blog/overlay_for_coworkers.png" alt="pic_overlay">
+                                </div>
+                                <p class="our_blog_section_main_right_title"><a name="marketing"></a>Marketing</p>
+                                <p class="our_blog_section_main_right_description general_title_medium">Your business with a variety of digital</p>
+                                <p class="our_blog_section_main_right_date general_text">21 Oct, 2021</p>
+                            </div>
+                        </div>
             </div>
-            <div class="faq_main_right_container_elements faq_main_right_container_elements_fourth">
-                <p class="faq_main_right_container_elements_title general_title_medium">Can provide your business</p>
-                <div class="faq_main_right_container_element1_top_image faq_main_right_container_elements_top_image_fourth">
-                    <img class="faq_main_right_container_element1_top_name_oval" src="img/FAQ/Oval.png" alt="logo_oval_small">
-                    <img class="faq_main_right_container_element1_top_name_triangle" src="img/FAQ/triangle_down.png" alt="logo_oval_triangle">
-                </div>
+        </div>
+        <div class="our_blog_section_main_border"></div>
+        <div class="our_blog_section_footer">
+            <div class="our_blog_section_footer_left">
+                <p class="our_blog_section_footer_left_title general_title_medium">Newsletter</p>
+                <p class="our_blog_footer_description general_text">A digital agency is a business you hire to outsource</p>
+            </div>
+            <div class="our_blog_section_footer_right">
+                <form class="our_blog_section_footer_right_form" action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="post">
+                    <input id="contactsForm" class="our_blog_section_footer_form_input general_text" type="mail" placeholder="Your email" autocomplete="email" minlength="5">
+                    <button class="our_blog_section_footer_right_form_btn general_btn">SUBSCRIBE</button>
+                </form>
             </div>
         </div>
     </div>
-    <div class="faq_footer hide_on_mobile">
-        <img class="hide_on_mobile" src="img/FAQ/DigitalSide.png" alt="logo_digitalSide">
-        <img class="faq_footer_img hide_on_mobile" src="img/FAQ/Vortex.png" alt="logo_vortex">
-        <img class="faq_footer_img hide_on_mobile" src="img/FAQ/Travel_ex.png" alt="logo_travel_explorer">
-        <img class="faq_footer_img hide_on_mobile" src="img/FAQ/FUZION.png" alt="logo_fuzion">
-        <img class="faq_footer_img hide_on_mobile element5" src="img/FAQ/MediaFury.png" alt="logo_mediaFury">
-    </div>
-    <div class="faq_footer_mbl show_on_mobile">
-        <div class="faq_footer_first_line show_on_mobile">
-            <img class="faq_footer_first_line_img1" src="img/FAQ/DigitalSide.png" alt="logo_digitalSide">
-            <img class="faq_footer_first_line_img2" src="img/FAQ/Vortex.png" alt="logo_vortex">
-        </div>
-        <div class="faq_footer_second_line show_on_mobile">
-            <img class="faq_footer_second_line_img1" src="img/FAQ/Travel_ex.png" alt="logo_travel_explorer">
-            <img class="faq_footer_second_line_img2" src="img/FAQ/FUZION.png" alt="logo_fuzion">
-        </div>
-        <div class="faq_footer_third_line show_on_mobile">
-            <img class="faq_footer_fourth_line_img element5" src="img/FAQ/MediaFury.png" alt="logo_mediaFury">
-        </div>
-    </div>
-</section>
-<section class="our_blog">
-    <div class="our_blog_main_header">
-        <div class="our_blog_main_header_right">
-            <p class="our_blog_main_header_right_title general_title"><a name="our_blog"></a>OUR BLOG</p>
-            <h2 class="our_blog_main_header_right_slogan general_slogan">Latest Blog Articles</h2>
-        </div>
-        <div class="our_blog_main_header_div_btn">
-            <button class="our_blog_main_right_btn general_btn">DISCOVER ALL</button>
-        </div>
-    </div>
-    <div class="our_blog_main">
-    <div class="our_blog_main_left">
-            <div class="our_blog_main_left_img">
-                <img class="our_blog_main_left_img_pumpkins" src="img/Our_blog/pumpkins.png" alt="pic_pumpkins">
-                <img class="our_blog_main_left_img_overlay" src="img/Our_blog/overlay_for_pumpkins.png" alt="pic_overlay">
+    </section>
+    <section class="contact_section">
+        <div class="container contact_section_container">
+            <div class="contact_section_left"><a name="contact"></a>
+                <form class="contact_section_left_form" action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="post">
+                    <p class="contact_section_left_form_title general_title_medium">Get In Touch</p>
+                    <input id="emailForm" class="contact_section_left_form_email contact_section_left_form_general general_text" type="mail" placeholder="Your email">
+                    <select class="contact_section_left_form_subject contact_section_left_form_general general_text">
+                        <option value="Subject" class="contact_section_left_form_text" default disabled selected>Subject</option>
+                        <option value="Design">Design</option>
+                        <option value="Development">Development</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <textarea placeholder="Message" class="contact_section_left_form_message contact_section_left_form_general general_text" name="Message" required/></textarea>
+                    <div class="contact_section_left_form_div_btn">
+                        <button class="contact_section_left_form_btn general_btn general_btn_orange">SUBMIT NOW</button>
+                    </div>
+                </form>
             </div>
-            <p class="our_blog_main_left_stories general_text">Stories</p>
-            <h4 class="our_blog_main_left_stories_slogan general_slogan">Agency is a business you hire to outsource</h4>
-            <p class="our_blog_main_left_stories_date general_text">5 Nov, 2021</p>
-        </div>
-        <div class="our_blog_main_right">
-            <div class="our_blog_main_right_top">
-                <div class="our_blog_main_right_img"> 
-                    <img class="our_blog_main_right_main_img" src="img/Our_blog/coworkers.png" alt="pic_coworkers">
-                    <img class="our_blog_main_right_img_overlay" src="img/Our_blog/overlay_for_coworkers.png" alt="pic_overlay">
-                </div>
-                <p class="our_blog_main_right_title">Design</p>
-                <p class="our_blog_main_right_description general_title_medium">Outsource your digital marketing efforts</p>
-                <p class="our_blog_main_right_date general_text">29 Oct, 2021</p>
-            </div>
-            <div class="our_blog_main_right_bottom">
-                <div class="our_blog_main_right_img"> 
-                    <img class="our_blog_main_right_main_img" src="img/Our_blog/two_coworkers.png" alt="pic_2coworkers">
-                    <img class="our_blog_main_right_img_overlay" src="img/Our_blog/overlay_for_coworkers.png" alt="pic_overlay">
-                </div>
-                <p class="our_blog_main_right_title">Marketing</p>
-                <p class="our_blog_main_right_description general_title_medium">Your business with a variety of digital</p>
-                <p class="our_blog_main_right_date general_text">21 Oct, 2021</p>
+            <div class="contact_section_right">
+                <p class="contact_section_right_title general_title">CONTACT</p>
+                <h3 class="contact_section_right_slogan general_slogan">Contact Me</h3>
+                <p class="contact_section_right_description general_text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+                <ul class="contact_section_right_list">
+                    <li class="contact_section_right_item  contact_section_right_item_first">
+                        <div class="contact_section_right_item_img">
+                            <img class="contact_section_right_item_img_oval" src="/img/Contact/Oval.png" alt="pic_oval">
+                            <img class="contact_section_right_item_img_pic" src="/img/Contact/adrress.png" alt="pic_adress">
+                        </div>
+                        <p class="contact_section_right_li contact_section_right_adress">2247 Lunetta Street, TX 76301</p>
+                    </li>
+                    <li class="contact_section_right_item  contact_section_right_item_second">
+                        <div class="contact_section_right_item_img">
+                            <img class="contact_section_right_item_img_oval" src="/img/Contact/Oval.png" alt="pic_oval">
+                            <img class="contact_section_right_item_img_pic" src="/img/Contact/phone.png" alt="pic_phone">
+                        </div>
+                    <p class="contact_section_right_li contact_section_right_phone">+1 (234) 567-89-00</p>
+                    </li>
+                    <li class="contact_section_right_item  contact_section_right_item_third">
+                        <div class="contact_section_right_item_img">
+                            <img class="contact_section_right_item_img_oval" src="/img/Contact/Oval.png" alt="pic_oval">
+                            <img class="contact_section_right_item_img_pic" src="/img/Contact/email.png" alt="pic_email">
+                        </div>
+                    <p class="contact_section_right_li contact_section_right_email">info@agency.com</p>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="our_blog_main_border"></div>
-    <div class="our_blog_footer">
-        <div class="our_blog_footer_left">
-            <p class="our_blog_footer_left_title general_title_medium">Newsletter</p>
-            <p class="our_blog_footer_description general_text">A digital agency is a business you hire to outsource</p>
-        </div>
-        <div class="our_blog_footer_right">
-            <form class="our_blog_footer_right_form" action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="post">
-                <input id="contactsForm" class="our_blog_footer_form_input general_text" type="mail" placeholder="Your email" autocomplete="email" minlength="5">
-                <button class="our_blog_footer_right_form_btn general_btn">SUBSCRIBE</button>
-            </form>
-        </div>
-    </div>
-</section>
-<section class="contact_container">
-        <div class="contact_container_left"><a name="contact"></a>
-            <form class="contact_container_left_form" action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="post">
-                <p class="contact_container_left_form_title general_title_medium">Get In Touch</p>
-                <input id="emailForm" class="contact_container_left_form_email contact_container_left_form_general general_text" type="mail" placeholder="Your email">
-                <select class="contact_container_left_form_subject contact_container_left_form_general general_text">
-                    <option value="Subject" class="contact_container_left_form_text" default disabled selected>Subject</option>
-                    <option value="Design">Design</option>
-                    <option value="Development">Development</option>
-                    <option value="Other">Other</option>
-                </select>
-                <textarea placeholder="Message" class="contact_container_left_form_message contact_container_left_form_general general_text" name="Message" required/></textarea>
-                <div class="contact_container_left_form_div_btn">
-                    <button class="contact_container_left_form_btn general_btn general_btn_orange">SUBMIT NOW</button>
+    </section>
+    <section class="dream_project_section">
+        <div class="container">
+            <div class="dream_project_section_top">
+                <div class="dream_project_section_top_left">
+                    <p class="dream_project_section_top_left_title general_title">GABRIEL PIRES</p>
+                    <p class="dream_project_section_top_left_slogan general_slogan">Help To Build Your Dream Project</p>
+                    <p class="dream_project_section_top_left_description general_text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+                    <button class="dream_project_section_top_left_btn general_btn">CONTACT ME</button>
                 </div>
-            </form>
-        </div>
-        <div class="contact_container_right">
-            <p class="contact_container_right_title general_title">CONTACT</p>
-            <h3 class="contact_container_right_slogan general_slogan">Contact Me</h3>
-            <p class="contact_container_right_description general_text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
-            <div class="contact_container_right_div contact_container_right_div_first">
-                <div class="contact_container_right_div_img">
-                    <img class="contact_container_right_li_oval" src="img/Contact/Oval.png" alt="pic_oval">
-                    <img class="contact_container_right_li_adress" src="img/Contact/adrress.png" alt="pic_adress">
+                <div class="dream_project_section_top_right">
+                    <img class="dream_project_section_top_right_img" src="/img/dream_project/pic.png" alt="pic_collage">
                 </div>
-                <p class="contact_container_right_li contact_container_right_adress">2247 Lunetta Street, TX 76301</p>
-            </div>
-            <div class="contact_container_right_div contact_container_right_div_second">
-                <div class="contact_container_right_div_img">
-                    <img class="contact_container_right_li_oval" src="img/Contact/Oval.png" alt="pic_oval">
-                    <img class="contact_container_right_li_phone" src="img/Contact/phone.png" alt="pic_phone">
-                </div>
-            <p class="contact_container_right_li contact_container_right_phone">+1 (234) 567-89-00</p>
-            </div>
-            <div class="contact_container_right_div contact_container_right_div_third">
-                <div class="contact_container_right_div_img">
-                    <img class="contact_container_right_li_oval" src="img/Contact/Oval.png" alt="pic_oval">
-                    <img class="contact_container_right_li_email" src="img/Contact/email.png" alt="pic_email">
-                </div>
-            <p class="contact_container_right_li contact_container_right_email">info@agency.com</p>
             </div>
         </div>
-</section>
-<section class="dream_project">
-    <div class="dream_project_top">
-        <div class="dream_project_top_left">
-            <p class="dream_project_top_left_title general_title">GABRIEL PIRES</p>
-            <p class="dream_project_top_left_slogan general_slogan">Help To Build Your Dream Project</p>
-            <p class="dream_project_top_left_description general_text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
-            <button class="dream_project_top_left_btn general_btn">CONTACT ME</button>
+        <div class="dream_project_section_bottom">
+            <img class="dream_project_section_bottom_pic" src="/img/dream_project/stairs.png" alt="pic_stairs">
+            <img class="dream_project_section_bottom_pic" src="/img/dream_project/geometry.png" alt="pic_geometry">
+            <img class="dream_project_section_bottom_pic" src="/img/dream_project/windows.png" alt="pic_windows">
+            <img class="dream_project_section_bottom_pic" src="/img/dream_project/drops.png" alt="pic_drops">
+            <img class="dream_project_section_bottom_pic" src="/img/dream_project/beach.png" alt="pic_beach">
+            <img class="dream_project_section_bottom_pic" src="/img/dream_project/ice.png" alt="pic_ice">
         </div>
-        <div class="dream_project_top_right">
-            <img class="dream_project_top_right_img" src="img/dream_project/pic.png" alt="pic_collage">
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer_container footer_top">
+            <div class="footer_top_text">
+                <p class="footer_top_personal general_title_medium">Personal</p>
+                <ul class="footer_top_list footer_top_list_menu">
+                    <li class="footer_top_list_title_menu general_title">MENU</li>
+                    <li><a href="#about"><p class="footer_top_list_item footer_top_list_item_first">About</p></a></li>
+                    <li><a href="#services"><p class="footer_top_list_item">Services</p></a></li>
+                    <li><a href="#our_blog"><p class="footer_top_list_item">Blog</p></a></li>
+                    <li><a href="#contact"><p class="footer_top_list_item">Contact</p></a></li>
+                </ul>
+                <ul class="footer_top_list footer_top_list_service">
+                    <li class="footer_top_list_title_service general_title">SERVICE</li>
+                    <li><a href="#design"><p class="footer_top_list_item footer_top_list_item_first">Design</p></a></li>
+                    <li><a href="#development"><p class="footer_top_list_item">Development</p></a></li>
+                    <li><a href="#marketing"><p class="footer_top_list_item">Marketing</p></a></li>
+                    <li class="footer_top_list_item">See More</li>
+                </ul>
+            </div>
+            <div class="footer_top_media footer_top_choice_media">
+                <img src="/img/Footer/social.png" alt="logo_social_media">
+            </div> 
         </div>
-    </div>
-    <div class="dream_project_bottom">
-        <img class="dream_project_bottom_pic" src="img/dream_project/stairs.png" alt="pic_stairs">
-        <img class="dream_project_bottom_pic" src="img/dream_project/geometry.png" alt="pic_geometry">
-        <img class="dream_project_bottom_pic" src="img/dream_project/windows.png" alt="pic_windows">
-        <img class="dream_project_bottom_pic" src="img/dream_project/drops.png" alt="pic_drops">
-        <img class="dream_project_bottom_pic" src="img/dream_project/beach.png" alt="pic_beach">
-        <img class="dream_project_bottom_pic" src="img/dream_project/ice.png" alt="pic_ice">
-    </div>
-</section>
-<footer class="footer_project">
-    <div class="footer_project_top">
-        <div class="footer_project_top_personal">
-            <p class="footer_project_top_personal_text general_title_medium">Personal</p>
-        </div>
-        <div class="footer_project_top_choice footer_project_top_choice_menu">
-            <p class="footer_project_top_choice_title_menu general_title">MENU</p>
-            <a href="#about"><p class="footer_project_top_choice_list footer_project_top_choice_list_first">About</p></a>
-            <a href="#services"><p class="footer_project_top_choice_list">Services</p></a>
-            <a href="#our_blog"><p class="footer_project_top_choice_list">Blog</p></a>
-            <a href="#contact"><p class="footer_project_top_choice_list">Contact</p></a>
-        </div>
-        <div class="footer_project_top_choice footer_project_top_choice_service">
-            <p class="footer_project_top_choice_title_service general_title">SERVICE</p>
-            <a href="#design"><p class="footer_project_top_choice_list footer_project_top_choice_list_bottom footer_project_top_choice_list_first">Design</p></a>
-            <p class="footer_project_top_choice_list footer_project_top_choice_list_bottom"> Development</p>
-            <p class="footer_project_top_choice_list footer_project_top_choice_list_bottom">Marketing</p>
-            <p class="footer_project_top_choice_list footer_project_top_choice_list_bottom">See More</p>
-        </div>
-        <div class="footer_project_top_media footer_project_top_choice_media">
-            <img src="img/Footer/social.png" alt="logo_social_media">
-        </div> 
-    </div>
-    <div class="footer_project_top_border our_blog_main_border"></div> 
-    <div class="footer_project_bottom">
-        <div class="footer_project_bottom_copy">
-            <p class="footer_project_bottom_copy_text general_text">Copyright © 2022 Laaqiq. All Rights Reserved.</p>
-        </div>
-        <div class="footer_project_bottom_right">
-            <p class="footer_project_bottom_right_terms general_text">Terms of Use</p>
-            <p class="footer_project_bottom_right_privacy general_text">Privacy Policy</p>
+        <div class="footer_top_border our_blog_main_border"></div> 
+        <div class="footer_bottom">
+            <div class="footer_bottom_copy">
+                <p class="footer_bottom_copy_text general_text">Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+            </div>
+            <div class="footer_bottom_right">
+                <p class="footer_bottom_right_terms general_text">Terms of Use</p>
+                <p class="footer_bottom_right_privacy general_text">Privacy Policy</p>
+            </div>
         </div>
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="email-mask/inputmask.js"></script>
+<script src="/email-mask/inputmask.js"></script>
 <script> 
   $(document).ready(function(){   
     $("#contactsForm").inputmask("email")
@@ -455,6 +515,6 @@
     $("#emailForm").inputmask("email");
   });
 </script>
-<script src="index.js"></script>
+<script src="/index.js"></script>
 </body>
 </html>
